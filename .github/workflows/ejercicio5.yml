@@ -1,4 +1,4 @@
-name: Ejercicio 5 - Workflow Completo
+name: Ejercicio 5 
 
 on:
   push:
