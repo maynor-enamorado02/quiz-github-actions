@@ -1,0 +1,19 @@
+name: Ejercicio 1
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  hello:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Mostrar mi nombre
+        run: echo "Hola, mi nombre es Mynor Antonio Enamorado"
+
+      - name: Mostrar fecha y hora
+        run: date
+
+      - name: Mostrar sistema operativo
+        run: echo "El sistema operativo es ${{ runner.os }}"
